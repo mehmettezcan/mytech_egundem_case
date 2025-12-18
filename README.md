@@ -2,7 +2,7 @@
 
 Modern bir haber uygulaması. Flutter ve Riverpod ile geliştirilmiştir.
 
-## 📋 İçindekiler
+## İçindekiler
 
 - [Özellikler](#özellikler)
 - [Proje Yapısı](#proje-yapısı)
@@ -14,16 +14,20 @@ Modern bir haber uygulaması. Flutter ve Riverpod ile geliştirilmiştir.
 - [Mimari](#mimari)
 - [Teknolojiler](#teknolojiler)
 
-## ✨ Özellikler
+## Ekran Kaydı
 
-- 🔐 **Kimlik Doğrulama**: Kullanıcı kaydı ve girişi
-- 📰 **Haberler**: Kategorilere göre haberler, popüler haberler
-- 🔍 **Kaynak Yönetimi**: Haber kaynaklarını takip etme
-- 🐦 **Twitter Entegrasyonu**: Twitter feed'i görüntüleme
-- 💾 **Yerel Depolama**: Token ve cache yönetimi
-- 📱 **Modern UI**: Dark mode, responsive tasarım
+https://drive.google.com/file/d/1HKxOPKclBL1663AssUc3LN8go9FkQunC/view?usp=sharing
 
-## 📁 Proje Yapısı
+## Özellikler
+
+- **Kimlik Doğrulama**: Kullanıcı kaydı ve girişi
+- **Haberler**: Kategorilere göre haberler, popüler haberler
+- **Kaynak Yönetimi**: Haber kaynaklarını takip etme
+- **Twitter Entegrasyonu**: Twitter feed'i görüntüleme
+- **Yerel Depolama**: Token ve cache yönetimi
+- **Modern UI**: Dark mode, responsive tasarım
+
+## Proje Yapısı
 
 ```
 lib/
@@ -103,14 +107,14 @@ test/                               # Test dosyaları
 └── routes_test.dart
 ```
 
-## 🔧 Gereksinimler
+## Gereksinimler
 
 - Flutter SDK: ^3.7.2
 - Dart SDK: ^3.7.2
 - Android Studio / VS Code
 - iOS Simulator / Android Emulator veya fiziksel cihaz
 
-## 🚀 Kurulum
+## Kurulum
 
 1. **Projeyi klonlayın:**
    ```bash
@@ -136,7 +140,7 @@ test/                               # Test dosyaları
    flutter pub run build_runner build --delete-conflicting-outputs
    ```
 
-## ▶️ Çalıştırma
+## Çalıştırma
 
 ### Development Mode
 
@@ -240,7 +244,7 @@ flutter test test/features/auth/
 flutter test test/core/widgets/
 ```
 
-## 🔨 Kod Üretimi
+## Kod Üretimi
 
 Bu proje **Riverpod Generator** kullanmaktadır. Provider'lar `@riverpod` annotation ile tanımlanır ve otomatik olarak kod üretilir.
 
@@ -273,7 +277,7 @@ Kod değişikliklerini otomatik izlemek için:
 flutter pub run build_runner watch
 ```
 
-## 🏗️ Mimari
+## Mimari
 
 Proje **Clean Architecture** prensiplerine uygun olarak geliştirilmiştir:
 
@@ -332,7 +336,7 @@ Proje **Clean Architecture** prensiplerine uygun olarak geliştirilmiştir:
 - **mocktail**: ^1.0.4 - Mocking for tests
 - **faker**: ^2.2.0 - Test data generation
 
-## 📝 Önemli Notlar
+## Önemli Notlar
 
 ### Environment Variables
 
@@ -360,13 +364,13 @@ Proje `riverpod_lint` ve `custom_lint` kullanmaktadır. Lint hatalarını kontro
 flutter analyze
 ```
 
-## 📚 Ek Kaynaklar
+## Ek Kaynaklar
 
 - [Flutter Documentation](https://docs.flutter.dev/)
 - [Riverpod Documentation](https://riverpod.dev/)
 - [Riverpod Generator](https://riverpod.dev/docs/concepts/about_code_generation)
 
-## 👥 Katkıda Bulunma
+## Katkıda Bulunma
 
 1. Fork edin
 2. Feature branch oluşturun (`git checkout -b feature/amazing-feature`)
@@ -374,7 +378,7 @@ flutter analyze
 4. Push edin (`git push origin feature/amazing-feature`)
 5. Pull Request açın
 
-## 📄 Lisans
+## Lisans
 
 Bu proje özel bir projedir.
 

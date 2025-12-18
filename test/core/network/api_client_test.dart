@@ -1,5 +1,6 @@
 import 'package:dio/dio.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:loggy/loggy.dart';
 import 'package:mocktail/mocktail.dart';
 import 'package:mytech_egundem_case/core/network/api_client.dart';
 
@@ -8,11 +9,13 @@ class MockDio extends Mock implements Dio {}
 void main() {
   group('ApiClient', () {
     late MockDio mockDio;
+    late Loggy loggy;
     late ApiClient apiClient;
 
     setUp(() {
       mockDio = MockDio();
-      apiClient = ApiClient(dio: mockDio);
+      loggy = Loggy('ApiClientTest');
+      apiClient = ApiClient(dio: mockDio, loggy: loggy);
     });
 
     group('get', () {
